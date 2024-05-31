@@ -36,6 +36,11 @@ CUB-200-2011
     ```
 - 下载模型权重文件，并将其放入`./Output`文件夹下
 - 下载数据集，并将其放入`./data`文件夹下 (`./data/CUB-200-2011/...`)
+  - 下载地址：https://data.caltech.edu/records/65de6-vp158/records/65de6-vp158/files/CUB_200_2011.tgz?download=1
+  - 解压缩
+    ```bash
+    tar -xzvf CUB_200_2011.tgz ./data
+    ```
 - 训练
   - 个性化训练 
     ```bash
