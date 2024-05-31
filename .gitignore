@@ -1,0 +1,7 @@
+*.pyc
+**/__pycache__/
+**/mmdetection/
+**/data/
+**/tutorial/
+*.pth
+**/backup/

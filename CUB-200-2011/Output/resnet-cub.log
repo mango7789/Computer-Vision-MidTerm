@@ -1,0 +1,682 @@
+24.5s 1 2024-05-27 00:05:03.097238: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+24.5s 2 2024-05-27 00:05:03.097350: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+24.5s 3 2024-05-27 00:05:03.367648: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+24.7s 4 2024-05-27 00:05:03.097238: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+24.7s 5 2024-05-27 00:05:03.097350: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+24.7s 6 2024-05-27 00:05:03.367648: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+37.0s 7 Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+37.5s 8 0%|          | 0.00/44.7M [00:00<?, ?B/s] 14%|█▍        | 6.23M/44.7M [00:00<00:00, 65.4MB/s] 50%|█████     | 22.5M/44.7M [00:00<00:00, 127MB/s]  86%|████████▋ | 38.6M/44.7M [00:00<00:00, 146MB/s]100%|██████████| 44.7M/44.7M [00:00<00:00, 138MB/s]
+37.9s 9 ======================================================================
+37.9s 10 Training with configuration (0.00005, 0.00100)
+143.7s 11 [Epoch  1 / 15], Training loss is 6.988053
+231.0s 12 [Epoch  1 / 15], Validation loss is 6.522593, Top-5 accuracy is 0.035899, Top-1 accuracy is 0.007767
+287.0s 13 [Epoch  2 / 15], Training loss is 5.983014
+329.5s 14 [Epoch  2 / 15], Validation loss is 5.964954, Top-5 accuracy is 0.057473, Top-1 accuracy is 0.013635
+386.0s 15 [Epoch  3 / 15], Training loss is 5.492842
+427.8s 16 [Epoch  3 / 15], Validation loss is 5.580335, Top-5 accuracy is 0.089748, Top-1 accuracy is 0.023127
+483.8s 17 [Epoch  4 / 15], Training loss is 5.079500
+525.5s 18 [Epoch  4 / 15], Validation loss is 5.219078, Top-5 accuracy is 0.133241, Top-1 accuracy is 0.037107
+581.5s 19 [Epoch  5 / 15], Training loss is 4.715111
+623.2s 20 [Epoch  5 / 15], Validation loss is 4.890339, Top-5 accuracy is 0.182085, Top-1 accuracy is 0.057818
+679.7s 21 [Epoch  6 / 15], Training loss is 4.351164
+721.3s 22 [Epoch  6 / 15], Validation loss is 4.560553, Top-5 accuracy is 0.244046, Top-1 accuracy is 0.085951
+777.5s 23 [Epoch  7 / 15], Training loss is 4.019405
+820.4s 24 [Epoch  7 / 15], Validation loss is 4.265923, Top-5 accuracy is 0.301864, Top-1 accuracy is 0.112358
+876.5s 25 [Epoch  8 / 15], Training loss is 3.713315
+919.0s 26 [Epoch  8 / 15], Validation loss is 4.007579, Top-5 accuracy is 0.353987, Top-1 accuracy is 0.139800
+975.1s 27 [Epoch  9 / 15], Training loss is 3.464251
+1016.7s 28 [Epoch  9 / 15], Validation loss is 3.771258, Top-5 accuracy is 0.409044, Top-1 accuracy is 0.168450
+1072.8s 29 [Epoch 10 / 15], Training loss is 3.210893
+1115.0s 30 [Epoch 10 / 15], Validation loss is 3.570863, Top-5 accuracy is 0.454090, Top-1 accuracy is 0.200725
+1171.4s 31 [Epoch 11 / 15], Training loss is 2.996566
+1212.3s 32 [Epoch 11 / 15], Validation loss is 3.372570, Top-5 accuracy is 0.500518, Top-1 accuracy is 0.231619
+1268.6s 33 [Epoch 12 / 15], Training loss is 2.785381
+1310.4s 34 [Epoch 12 / 15], Validation loss is 3.208636, Top-5 accuracy is 0.538143, Top-1 accuracy is 0.255091
+1367.2s 35 [Epoch 13 / 15], Training loss is 2.636819
+1408.9s 36 [Epoch 13 / 15], Validation loss is 3.071238, Top-5 accuracy is 0.570072, Top-1 accuracy is 0.280117
+1464.8s 37 [Epoch 14 / 15], Training loss is 2.483073
+1506.4s 38 [Epoch 14 / 15], Validation loss is 2.938276, Top-5 accuracy is 0.600449, Top-1 accuracy is 0.303763
+1562.6s 39 [Epoch 15 / 15], Training loss is 2.353434
+1604.5s 40 [Epoch 15 / 15], Validation loss is 2.826734, Top-5 accuracy is 0.625475, Top-1 accuracy is 0.321540
+1604.8s 41 ======================================================================
+1604.8s 42 Training with configuration (0.00005, 0.00200)
+1660.8s 43 [Epoch  1 / 15], Training loss is 6.697133
+1702.5s 44 [Epoch  1 / 15], Validation loss is 6.181295, Top-5 accuracy is 0.045910, Top-1 accuracy is 0.011046
+1758.8s 45 [Epoch  2 / 15], Training loss is 5.618486
+1800.4s 46 [Epoch  2 / 15], Validation loss is 5.555193, Top-5 accuracy is 0.091992, Top-1 accuracy is 0.023990
+1856.6s 47 [Epoch  3 / 15], Training loss is 5.011069
+1898.3s 48 [Epoch  3 / 15], Validation loss is 5.033711, Top-5 accuracy is 0.160683, Top-1 accuracy is 0.051087
+1954.5s 49 [Epoch  4 / 15], Training loss is 4.458173
+1996.2s 50 [Epoch  4 / 15], Validation loss is 4.542506, Top-5 accuracy is 0.244909, Top-1 accuracy is 0.087677
+2052.3s 51 [Epoch  5 / 15], Training loss is 3.979635
+2093.9s 52 [Epoch  5 / 15], Validation loss is 4.128386, Top-5 accuracy is 0.329306, Top-1 accuracy is 0.128064
+2150.0s 53 [Epoch  6 / 15], Training loss is 3.543361
+2191.8s 54 [Epoch  6 / 15], Validation loss is 3.756498, Top-5 accuracy is 0.412323, Top-1 accuracy is 0.171557
+2247.7s 55 [Epoch  7 / 15], Training loss is 3.180820
+2289.6s 56 [Epoch  7 / 15], Validation loss is 3.457498, Top-5 accuracy is 0.482050, Top-1 accuracy is 0.215395
+2345.4s 57 [Epoch  8 / 15], Training loss is 2.870304
+2387.7s 58 [Epoch  8 / 15], Validation loss is 3.208441, Top-5 accuracy is 0.541077, Top-1 accuracy is 0.254746
+2444.2s 59 [Epoch  9 / 15], Training loss is 2.635916
+2486.0s 60 [Epoch  9 / 15], Validation loss is 3.004804, Top-5 accuracy is 0.581118, Top-1 accuracy is 0.289610
+2542.6s 61 [Epoch 10 / 15], Training loss is 2.409386
+2584.2s 62 [Epoch 10 / 15], Validation loss is 2.831478, Top-5 accuracy is 0.622023, Top-1 accuracy is 0.320159
+2640.8s 63 [Epoch 11 / 15], Training loss is 2.231177
+2682.9s 64 [Epoch 11 / 15], Validation loss is 2.676050, Top-5 accuracy is 0.654470, Top-1 accuracy is 0.352261
+2739.2s 65 [Epoch 12 / 15], Training loss is 2.056615
+2780.9s 66 [Epoch 12 / 15], Validation loss is 2.554273, Top-5 accuracy is 0.680359, Top-1 accuracy is 0.374180
+2837.2s 67 [Epoch 13 / 15], Training loss is 1.938341
+2879.5s 68 [Epoch 13 / 15], Validation loss is 2.445424, Top-5 accuracy is 0.700380, Top-1 accuracy is 0.393683
+2935.1s 69 [Epoch 14 / 15], Training loss is 1.818020
+2977.6s 70 [Epoch 14 / 15], Validation loss is 2.352423, Top-5 accuracy is 0.719365, Top-1 accuracy is 0.411805
+3033.6s 71 [Epoch 15 / 15], Training loss is 1.716398
+3076.0s 72 [Epoch 15 / 15], Validation loss is 2.275943, Top-5 accuracy is 0.737142, Top-1 accuracy is 0.429928
+3076.3s 73 ======================================================================
+3076.3s 74 Training with configuration (0.00005, 0.00500)
+3132.2s 75 [Epoch  1 / 15], Training loss is 6.309062
+3174.3s 76 [Epoch  1 / 15], Validation loss is 5.648859, Top-5 accuracy is 0.093027, Top-1 accuracy is 0.024853
+3231.0s 77 [Epoch  2 / 15], Training loss is 4.857831
+3272.9s 78 [Epoch  2 / 15], Validation loss is 4.617432, Top-5 accuracy is 0.233172, Top-1 accuracy is 0.081809
+3329.3s 79 [Epoch  3 / 15], Training loss is 3.919656
+3370.6s 80 [Epoch  3 / 15], Validation loss is 3.872511, Top-5 accuracy is 0.392648, Top-1 accuracy is 0.159821
+3427.4s 81 [Epoch  4 / 15], Training loss is 3.209212
+3469.7s 82 [Epoch  4 / 15], Validation loss is 3.347053, Top-5 accuracy is 0.503452, Top-1 accuracy is 0.232827
+3526.4s 83 [Epoch  5 / 15], Training loss is 2.696058
+3568.5s 84 [Epoch  5 / 15], Validation loss is 2.966468, Top-5 accuracy is 0.592337, Top-1 accuracy is 0.295478
+3624.1s 85 [Epoch  6 / 15], Training loss is 2.305448
+3666.0s 86 [Epoch  6 / 15], Validation loss is 2.674700, Top-5 accuracy is 0.649810, Top-1 accuracy is 0.347428
+3722.2s 87 [Epoch  7 / 15], Training loss is 2.026927
+3764.4s 88 [Epoch  7 / 15], Validation loss is 2.482837, Top-5 accuracy is 0.694512, Top-1 accuracy is 0.382810
+3821.2s 89 [Epoch  8 / 15], Training loss is 1.801688
+3863.4s 90 [Epoch  8 / 15], Validation loss is 2.316099, Top-5 accuracy is 0.729720, Top-1 accuracy is 0.414049
+3919.9s 91 [Epoch  9 / 15], Training loss is 1.646228
+3961.6s 92 [Epoch  9 / 15], Validation loss is 2.204129, Top-5 accuracy is 0.747325, Top-1 accuracy is 0.436831
+4018.6s 93 [Epoch 10 / 15], Training loss is 1.490767
+4060.5s 94 [Epoch 10 / 15], Validation loss is 2.091957, Top-5 accuracy is 0.768899, Top-1 accuracy is 0.462030
+4117.8s 95 [Epoch 11 / 15], Training loss is 1.379218
+4159.8s 96 [Epoch 11 / 15], Validation loss is 2.014328, Top-5 accuracy is 0.777528, Top-1 accuracy is 0.479462
+4215.9s 97 [Epoch 12 / 15], Training loss is 1.267140
+4258.3s 98 [Epoch 12 / 15], Validation loss is 1.949312, Top-5 accuracy is 0.790645, Top-1 accuracy is 0.491888
+4314.8s 99 [Epoch 13 / 15], Training loss is 1.189405
+4357.1s 100 [Epoch 13 / 15], Validation loss is 1.880870, Top-5 accuracy is 0.808250, Top-1 accuracy is 0.504315
+4413.3s 101 [Epoch 14 / 15], Training loss is 1.112900
+4455.6s 102 [Epoch 14 / 15], Validation loss is 1.844864, Top-5 accuracy is 0.810839, Top-1 accuracy is 0.510356
+4512.1s 103 [Epoch 15 / 15], Training loss is 1.045960
+4554.5s 104 [Epoch 15 / 15], Validation loss is 1.814083, Top-5 accuracy is 0.815844, Top-1 accuracy is 0.519330
+4554.8s 105 ======================================================================
+4554.8s 106 Training with configuration (0.00005, 0.00800)
+4610.9s 107 [Epoch  1 / 15], Training loss is 6.074662
+4652.7s 108 [Epoch  1 / 15], Validation loss is 5.217232, Top-5 accuracy is 0.146703, Top-1 accuracy is 0.053331
+4709.1s 109 [Epoch  2 / 15], Training loss is 4.275467
+4751.3s 110 [Epoch  2 / 15], Validation loss is 3.987009, Top-5 accuracy is 0.362962, Top-1 accuracy is 0.148775
+4808.0s 111 [Epoch  3 / 15], Training loss is 3.227603
+4850.2s 112 [Epoch  3 / 15], Validation loss is 3.235072, Top-5 accuracy is 0.530721, Top-1 accuracy is 0.255609
+4906.5s 113 [Epoch  4 / 15], Training loss is 2.554556
+4949.0s 114 [Epoch  4 / 15], Validation loss is 2.805334, Top-5 accuracy is 0.622886, Top-1 accuracy is 0.318605
+5006.2s 115 [Epoch  5 / 15], Training loss is 2.110134
+5047.7s 116 [Epoch  5 / 15], Validation loss is 2.513148, Top-5 accuracy is 0.686227, Top-1 accuracy is 0.379358
+5104.6s 117 [Epoch  6 / 15], Training loss is 1.788124
+5146.7s 118 [Epoch  6 / 15], Validation loss is 2.289990, Top-5 accuracy is 0.729030, Top-1 accuracy is 0.421816
+5202.8s 119 [Epoch  7 / 15], Training loss is 1.569596
+5244.7s 120 [Epoch  7 / 15], Validation loss is 2.158398, Top-5 accuracy is 0.750259, Top-1 accuracy is 0.442699
+5301.0s 121 [Epoch  8 / 15], Training loss is 1.391322
+5343.6s 122 [Epoch  8 / 15], Validation loss is 2.035220, Top-5 accuracy is 0.775457, Top-1 accuracy is 0.469279
+5399.7s 123 [Epoch  9 / 15], Training loss is 1.271842
+5442.1s 124 [Epoch  9 / 15], Validation loss is 1.970897, Top-5 accuracy is 0.790128, Top-1 accuracy is 0.482741
+5498.1s 125 [Epoch 10 / 15], Training loss is 1.146394
+5539.7s 126 [Epoch 10 / 15], Validation loss is 1.878609, Top-5 accuracy is 0.801346, Top-1 accuracy is 0.508457
+5595.5s 127 [Epoch 11 / 15], Training loss is 1.061294
+5637.5s 128 [Epoch 11 / 15], Validation loss is 1.832010, Top-5 accuracy is 0.812565, Top-1 accuracy is 0.517432
+5694.0s 129 [Epoch 12 / 15], Training loss is 0.973819
+5736.2s 130 [Epoch 12 / 15], Validation loss is 1.780701, Top-5 accuracy is 0.816707, Top-1 accuracy is 0.524163
+5792.5s 131 [Epoch 13 / 15], Training loss is 0.907946
+5834.2s 132 [Epoch 13 / 15], Validation loss is 1.735941, Top-5 accuracy is 0.829479, Top-1 accuracy is 0.534346
+5890.2s 133 [Epoch 14 / 15], Training loss is 0.847044
+5932.2s 134 [Epoch 14 / 15], Validation loss is 1.722157, Top-5 accuracy is 0.830860, Top-1 accuracy is 0.538833
+5988.1s 135 [Epoch 15 / 15], Training loss is 0.790755
+6030.1s 136 [Epoch 15 / 15], Validation loss is 1.711924, Top-5 accuracy is 0.836900, Top-1 accuracy is 0.542630
+6030.4s 137 ======================================================================
+6030.4s 138 Training with configuration (0.00005, 0.01000)
+6087.0s 139 [Epoch  1 / 15], Training loss is 5.946862
+6128.7s 140 [Epoch  1 / 15], Validation loss is 4.966735, Top-5 accuracy is 0.187435, Top-1 accuracy is 0.067656
+6185.0s 141 [Epoch  2 / 15], Training loss is 3.966495
+6227.7s 142 [Epoch  2 / 15], Validation loss is 3.692639, Top-5 accuracy is 0.430445, Top-1 accuracy is 0.187953
+6284.5s 143 [Epoch  3 / 15], Training loss is 2.908388
+6327.3s 144 [Epoch  3 / 15], Validation loss is 2.982651, Top-5 accuracy is 0.580255, Top-1 accuracy is 0.295651
+6383.7s 145 [Epoch  4 / 15], Training loss is 2.280440
+6425.4s 146 [Epoch  4 / 15], Validation loss is 2.598277, Top-5 accuracy is 0.668795, Top-1 accuracy is 0.361236
+6482.2s 147 [Epoch  5 / 15], Training loss is 1.876498
+6524.2s 148 [Epoch  5 / 15], Validation loss is 2.350187, Top-5 accuracy is 0.717121, Top-1 accuracy is 0.412668
+6581.0s 149 [Epoch  6 / 15], Training loss is 1.584664
+6623.4s 150 [Epoch  6 / 15], Validation loss is 2.159167, Top-5 accuracy is 0.752330, Top-1 accuracy is 0.448740
+6679.9s 151 [Epoch  7 / 15], Training loss is 1.391216
+6721.7s 152 [Epoch  7 / 15], Validation loss is 2.052699, Top-5 accuracy is 0.769071, Top-1 accuracy is 0.467553
+6778.5s 153 [Epoch  8 / 15], Training loss is 1.231085
+6820.9s 154 [Epoch  8 / 15], Validation loss is 1.946327, Top-5 accuracy is 0.791336, Top-1 accuracy is 0.489127
+6876.9s 155 [Epoch  9 / 15], Training loss is 1.124899
+6919.3s 156 [Epoch  9 / 15], Validation loss is 1.901027, Top-5 accuracy is 0.802554, Top-1 accuracy is 0.498619
+6976.1s 157 [Epoch 10 / 15], Training loss is 1.011305
+7018.4s 158 [Epoch 10 / 15], Validation loss is 1.816967, Top-5 accuracy is 0.812047, Top-1 accuracy is 0.520193
+7075.4s 159 [Epoch 11 / 15], Training loss is 0.935635
+7118.3s 160 [Epoch 11 / 15], Validation loss is 1.779425, Top-5 accuracy is 0.819814, Top-1 accuracy is 0.530721
+7175.5s 161 [Epoch 12 / 15], Training loss is 0.856398
+7219.9s 162 [Epoch 12 / 15], Validation loss is 1.733309, Top-5 accuracy is 0.828271, Top-1 accuracy is 0.537625
+7277.3s 163 [Epoch 13 / 15], Training loss is 0.794780
+7320.0s 164 [Epoch 13 / 15], Validation loss is 1.698978, Top-5 accuracy is 0.836382, Top-1 accuracy is 0.545737
+7376.9s 165 [Epoch 14 / 15], Training loss is 0.740373
+7420.4s 166 [Epoch 14 / 15], Validation loss is 1.692750, Top-5 accuracy is 0.836728, Top-1 accuracy is 0.546255
+7477.7s 167 [Epoch 15 / 15], Training loss is 0.687943
+7520.2s 168 [Epoch 15 / 15], Validation loss is 1.690015, Top-5 accuracy is 0.840525, Top-1 accuracy is 0.547463
+7520.6s 169 ======================================================================
+7520.6s 170 Training with configuration (0.00010, 0.00100)
+7578.1s 171 [Epoch  1 / 15], Training loss is 6.918224
+7620.4s 172 [Epoch  1 / 15], Validation loss is 6.361596, Top-5 accuracy is 0.041940, Top-1 accuracy is 0.009838
+7677.5s 173 [Epoch  2 / 15], Training loss is 5.724428
+7720.2s 174 [Epoch  2 / 15], Validation loss is 5.654174, Top-5 accuracy is 0.083017, Top-1 accuracy is 0.020366
+7777.4s 175 [Epoch  3 / 15], Training loss is 5.073095
+7821.0s 176 [Epoch  3 / 15], Validation loss is 5.123373, Top-5 accuracy is 0.144805, Top-1 accuracy is 0.040387
+7878.8s 177 [Epoch  4 / 15], Training loss is 4.515924
+7921.3s 178 [Epoch  4 / 15], Validation loss is 4.638547, Top-5 accuracy is 0.227994, Top-1 accuracy is 0.078702
+7978.4s 179 [Epoch  5 / 15], Training loss is 4.036061
+8021.2s 180 [Epoch  5 / 15], Validation loss is 4.218061, Top-5 accuracy is 0.315326, Top-1 accuracy is 0.119434
+8078.3s 181 [Epoch  6 / 15], Training loss is 3.601961
+8120.9s 182 [Epoch  6 / 15], Validation loss is 3.848440, Top-5 accuracy is 0.394028, Top-1 accuracy is 0.165343
+8177.4s 183 [Epoch  7 / 15], Training loss is 3.236614
+8219.9s 184 [Epoch  7 / 15], Validation loss is 3.537375, Top-5 accuracy is 0.462720, Top-1 accuracy is 0.208146
+8276.9s 185 [Epoch  8 / 15], Training loss is 2.921844
+8319.9s 186 [Epoch  8 / 15], Validation loss is 3.290007, Top-5 accuracy is 0.523127, Top-1 accuracy is 0.242492
+8376.7s 187 [Epoch  9 / 15], Training loss is 2.682762
+8419.4s 188 [Epoch  9 / 15], Validation loss is 3.082393, Top-5 accuracy is 0.568519, Top-1 accuracy is 0.282706
+8477.1s 189 [Epoch 10 / 15], Training loss is 2.457551
+8519.7s 190 [Epoch 10 / 15], Validation loss is 2.917274, Top-5 accuracy is 0.607007, Top-1 accuracy is 0.311702
+8576.8s 191 [Epoch 11 / 15], Training loss is 2.270682
+8620.7s 192 [Epoch 11 / 15], Validation loss is 2.752894, Top-5 accuracy is 0.646186, Top-1 accuracy is 0.340697
+8677.8s 193 [Epoch 12 / 15], Training loss is 2.093431
+8720.1s 194 [Epoch 12 / 15], Validation loss is 2.628984, Top-5 accuracy is 0.670694, Top-1 accuracy is 0.363825
+8777.8s 195 [Epoch 13 / 15], Training loss is 1.977222
+8820.8s 196 [Epoch 13 / 15], Validation loss is 2.527728, Top-5 accuracy is 0.689852, Top-1 accuracy is 0.386262
+8878.3s 197 [Epoch 14 / 15], Training loss is 1.846832
+8920.8s 198 [Epoch 14 / 15], Validation loss is 2.428231, Top-5 accuracy is 0.711771, Top-1 accuracy is 0.405765
+8977.7s 199 [Epoch 15 / 15], Training loss is 1.742695
+9020.7s 200 [Epoch 15 / 15], Validation loss is 2.344095, Top-5 accuracy is 0.732309, Top-1 accuracy is 0.427684
+9021.0s 201 ======================================================================
+9021.0s 202 Training with configuration (0.00010, 0.00200)
+9078.2s 203 [Epoch  1 / 15], Training loss is 6.631682
+9121.0s 204 [Epoch  1 / 15], Validation loss is 6.028294, Top-5 accuracy is 0.055057, Top-1 accuracy is 0.012427
+9177.8s 205 [Epoch  2 / 15], Training loss is 5.374024
+9221.1s 206 [Epoch  2 / 15], Validation loss is 5.257687, Top-5 accuracy is 0.127373, Top-1 accuracy is 0.033656
+9278.5s 207 [Epoch  3 / 15], Training loss is 4.615564
+9321.7s 208 [Epoch  3 / 15], Validation loss is 4.599860, Top-5 accuracy is 0.236106, Top-1 accuracy is 0.082154
+9378.2s 209 [Epoch  4 / 15], Training loss is 3.945695
+9420.0s 210 [Epoch  4 / 15], Validation loss is 4.028150, Top-5 accuracy is 0.353642, Top-1 accuracy is 0.133241
+9476.6s 211 [Epoch  5 / 15], Training loss is 3.399658
+9518.5s 212 [Epoch  5 / 15], Validation loss is 3.581443, Top-5 accuracy is 0.452019, Top-1 accuracy is 0.199862
+9575.4s 213 [Epoch  6 / 15], Training loss is 2.952793
+9617.4s 214 [Epoch  6 / 15], Validation loss is 3.223196, Top-5 accuracy is 0.531930, Top-1 accuracy is 0.256472
+9673.9s 215 [Epoch  7 / 15], Training loss is 2.603366
+9717.2s 216 [Epoch  7 / 15], Validation loss is 2.944922, Top-5 accuracy is 0.597515, Top-1 accuracy is 0.299103
+9774.0s 217 [Epoch  8 / 15], Training loss is 2.318276
+9816.3s 218 [Epoch  8 / 15], Validation loss is 2.729090, Top-5 accuracy is 0.647912, Top-1 accuracy is 0.341388
+9873.0s 219 [Epoch  9 / 15], Training loss is 2.112784
+9915.3s 220 [Epoch  9 / 15], Validation loss is 2.562497, Top-5 accuracy is 0.679323, Top-1 accuracy is 0.377977
+9971.7s 221 [Epoch 10 / 15], Training loss is 1.920277
+10014.2s 222 [Epoch 10 / 15], Validation loss is 2.425931, Top-5 accuracy is 0.710045, Top-1 accuracy is 0.400414
+10070.9s 223 [Epoch 11 / 15], Training loss is 1.764527
+10113.0s 224 [Epoch 11 / 15], Validation loss is 2.297928, Top-5 accuracy is 0.734380, Top-1 accuracy is 0.430273
+10169.8s 225 [Epoch 12 / 15], Training loss is 1.618024
+10212.5s 226 [Epoch 12 / 15], Validation loss is 2.208381, Top-5 accuracy is 0.754229, Top-1 accuracy is 0.440283
+10269.2s 227 [Epoch 13 / 15], Training loss is 1.524276
+10311.5s 228 [Epoch 13 / 15], Validation loss is 2.125067, Top-5 accuracy is 0.767691, Top-1 accuracy is 0.461857
+10368.0s 229 [Epoch 14 / 15], Training loss is 1.419272
+10410.6s 230 [Epoch 14 / 15], Validation loss is 2.054897, Top-5 accuracy is 0.780980, Top-1 accuracy is 0.474111
+10467.8s 231 [Epoch 15 / 15], Training loss is 1.332868
+10510.4s 232 [Epoch 15 / 15], Validation loss is 1.995673, Top-5 accuracy is 0.788229, Top-1 accuracy is 0.487401
+10510.8s 233 ======================================================================
+10510.8s 234 Training with configuration (0.00010, 0.00500)
+10568.7s 235 [Epoch  1 / 15], Training loss is 6.249206
+10611.9s 236 [Epoch  1 / 15], Validation loss is 5.506642, Top-5 accuracy is 0.105454, Top-1 accuracy is 0.030549
+10668.7s 237 [Epoch  2 / 15], Training loss is 4.631463
+10712.0s 238 [Epoch  2 / 15], Validation loss is 4.337524, Top-5 accuracy is 0.283914, Top-1 accuracy is 0.105972
+10768.4s 239 [Epoch  3 / 15], Training loss is 3.580174
+10810.8s 240 [Epoch  3 / 15], Validation loss is 3.515402, Top-5 accuracy is 0.471004, Top-1 accuracy is 0.208146
+10866.9s 241 [Epoch  4 / 15], Training loss is 2.837817
+10908.9s 242 [Epoch  4 / 15], Validation loss is 3.001820, Top-5 accuracy is 0.577839, Top-1 accuracy is 0.289265
+10965.8s 243 [Epoch  5 / 15], Training loss is 2.337117
+11008.3s 244 [Epoch  5 / 15], Validation loss is 2.644310, Top-5 accuracy is 0.658785, Top-1 accuracy is 0.353124
+11065.5s 245 [Epoch  6 / 15], Training loss is 1.981878
+11107.9s 246 [Epoch  6 / 15], Validation loss is 2.392566, Top-5 accuracy is 0.710735, Top-1 accuracy is 0.401450
+11165.2s 247 [Epoch  7 / 15], Training loss is 1.725888
+11207.5s 248 [Epoch  7 / 15], Validation loss is 2.219501, Top-5 accuracy is 0.744909, Top-1 accuracy is 0.433725
+11263.8s 249 [Epoch  8 / 15], Training loss is 1.523536
+11305.7s 250 [Epoch  8 / 15], Validation loss is 2.078521, Top-5 accuracy is 0.773386, Top-1 accuracy is 0.464101
+11363.4s 251 [Epoch  9 / 15], Training loss is 1.384827
+11405.2s 252 [Epoch  9 / 15], Validation loss is 1.987668, Top-5 accuracy is 0.790300, Top-1 accuracy is 0.483604
+11461.9s 253 [Epoch 10 / 15], Training loss is 1.245838
+11503.8s 254 [Epoch 10 / 15], Validation loss is 1.892347, Top-5 accuracy is 0.806351, Top-1 accuracy is 0.504487
+11560.2s 255 [Epoch 11 / 15], Training loss is 1.143119
+11602.6s 256 [Epoch 11 / 15], Validation loss is 1.827119, Top-5 accuracy is 0.812392, Top-1 accuracy is 0.520538
+11658.5s 257 [Epoch 12 / 15], Training loss is 1.042998
+11700.6s 258 [Epoch 12 / 15], Validation loss is 1.776849, Top-5 accuracy is 0.822575, Top-1 accuracy is 0.525716
+11756.8s 259 [Epoch 13 / 15], Training loss is 0.975527
+11798.9s 260 [Epoch 13 / 15], Validation loss is 1.721056, Top-5 accuracy is 0.833448, Top-1 accuracy is 0.542975
+11856.1s 261 [Epoch 14 / 15], Training loss is 0.903305
+11898.8s 262 [Epoch 14 / 15], Validation loss is 1.692629, Top-5 accuracy is 0.836555, Top-1 accuracy is 0.546600
+11955.6s 263 [Epoch 15 / 15], Training loss is 0.840102
+11997.0s 264 [Epoch 15 / 15], Validation loss is 1.667120, Top-5 accuracy is 0.842251, Top-1 accuracy is 0.553158
+11997.3s 265 ======================================================================
+11997.3s 266 Training with configuration (0.00010, 0.00800)
+12053.7s 267 [Epoch  1 / 15], Training loss is 6.017480
+12095.5s 268 [Epoch  1 / 15], Validation loss is 5.075736, Top-5 accuracy is 0.167242, Top-1 accuracy is 0.060062
+12152.2s 269 [Epoch  2 / 15], Training loss is 4.059247
+12195.3s 270 [Epoch  2 / 15], Validation loss is 3.723896, Top-5 accuracy is 0.424922, Top-1 accuracy is 0.180359
+12251.7s 271 [Epoch  3 / 15], Training loss is 2.939344
+12294.2s 272 [Epoch  3 / 15], Validation loss is 2.945148, Top-5 accuracy is 0.590266, Top-1 accuracy is 0.307042
+12350.8s 273 [Epoch  4 / 15], Training loss is 2.273910
+12393.1s 274 [Epoch  4 / 15], Validation loss is 2.548707, Top-5 accuracy is 0.681912, Top-1 accuracy is 0.367967
+12449.5s 275 [Epoch  5 / 15], Training loss is 1.853229
+12491.7s 276 [Epoch  5 / 15], Validation loss is 2.276509, Top-5 accuracy is 0.735243, Top-1 accuracy is 0.425785
+12548.2s 277 [Epoch  6 / 15], Training loss is 1.562727
+12590.3s 278 [Epoch  6 / 15], Validation loss is 2.087861, Top-5 accuracy is 0.769417, Top-1 accuracy is 0.461685
+12646.8s 279 [Epoch  7 / 15], Training loss is 1.357782
+12689.4s 280 [Epoch  7 / 15], Validation loss is 1.966764, Top-5 accuracy is 0.787711, Top-1 accuracy is 0.483259
+12745.6s 281 [Epoch  8 / 15], Training loss is 1.194751
+12787.7s 282 [Epoch  8 / 15], Validation loss is 1.858664, Top-5 accuracy is 0.812565, Top-1 accuracy is 0.507939
+12843.9s 283 [Epoch  9 / 15], Training loss is 1.085006
+12886.7s 284 [Epoch  9 / 15], Validation loss is 1.807871, Top-5 accuracy is 0.818088, Top-1 accuracy is 0.515188
+12943.1s 285 [Epoch 10 / 15], Training loss is 0.969027
+12985.5s 286 [Epoch 10 / 15], Validation loss is 1.726998, Top-5 accuracy is 0.830514, Top-1 accuracy is 0.537970
+13042.2s 287 [Epoch 11 / 15], Training loss is 0.887921
+13083.8s 288 [Epoch 11 / 15], Validation loss is 1.688799, Top-5 accuracy is 0.833794, Top-1 accuracy is 0.551605
+13140.2s 289 [Epoch 12 / 15], Training loss is 0.807393
+13182.0s 290 [Epoch 12 / 15], Validation loss is 1.647275, Top-5 accuracy is 0.841560, Top-1 accuracy is 0.557301
+13238.3s 291 [Epoch 13 / 15], Training loss is 0.747532
+13280.3s 292 [Epoch 13 / 15], Validation loss is 1.611147, Top-5 accuracy is 0.850362, Top-1 accuracy is 0.565412
+13336.3s 293 [Epoch 14 / 15], Training loss is 0.688933
+13378.7s 294 [Epoch 14 / 15], Validation loss is 1.599156, Top-5 accuracy is 0.850708, Top-1 accuracy is 0.568692
+13435.5s 295 [Epoch 15 / 15], Training loss is 0.634450
+13477.3s 296 [Epoch 15 / 15], Validation loss is 1.591244, Top-5 accuracy is 0.855022, Top-1 accuracy is 0.569900
+13477.6s 297 ======================================================================
+13477.6s 298 Training with configuration (0.00010, 0.01000)
+13533.7s 299 [Epoch  1 / 15], Training loss is 5.890566
+13575.9s 300 [Epoch  1 / 15], Validation loss is 4.825748, Top-5 accuracy is 0.207801, Top-1 accuracy is 0.076976
+13631.8s 301 [Epoch  2 / 15], Training loss is 3.757509
+13673.8s 302 [Epoch  2 / 15], Validation loss is 3.443827, Top-5 accuracy is 0.487746, Top-1 accuracy is 0.220746
+13730.2s 303 [Epoch  3 / 15], Training loss is 2.650491
+13772.4s 304 [Epoch  3 / 15], Validation loss is 2.725805, Top-5 accuracy is 0.638764, Top-1 accuracy is 0.340697
+13828.8s 305 [Epoch  4 / 15], Training loss is 2.039036
+13870.2s 306 [Epoch  4 / 15], Validation loss is 2.376022, Top-5 accuracy is 0.709182, Top-1 accuracy is 0.398688
+13926.9s 307 [Epoch  5 / 15], Training loss is 1.657921
+13968.6s 308 [Epoch  5 / 15], Validation loss is 2.143645, Top-5 accuracy is 0.760442, Top-1 accuracy is 0.449430
+14025.8s 309 [Epoch  6 / 15], Training loss is 1.393671
+14067.8s 310 [Epoch  6 / 15], Validation loss is 1.983725, Top-5 accuracy is 0.788057, Top-1 accuracy is 0.484812
+14123.9s 311 [Epoch  7 / 15], Training loss is 1.209834
+14165.8s 312 [Epoch  7 / 15], Validation loss is 1.884549, Top-5 accuracy is 0.804108, Top-1 accuracy is 0.500173
+14222.6s 313 [Epoch  8 / 15], Training loss is 1.061630
+14265.3s 314 [Epoch  8 / 15], Validation loss is 1.788187, Top-5 accuracy is 0.822748, Top-1 accuracy is 0.519676
+14321.8s 315 [Epoch  9 / 15], Training loss is 0.963142
+14364.3s 316 [Epoch  9 / 15], Validation loss is 1.752248, Top-5 accuracy is 0.826372, Top-1 accuracy is 0.528133
+14420.9s 317 [Epoch 10 / 15], Training loss is 0.855960
+14463.0s 318 [Epoch 10 / 15], Validation loss is 1.678326, Top-5 accuracy is 0.835347, Top-1 accuracy is 0.548671
+14519.4s 319 [Epoch 11 / 15], Training loss is 0.782983
+14561.6s 320 [Epoch 11 / 15], Validation loss is 1.648643, Top-5 accuracy is 0.840697, Top-1 accuracy is 0.561443
+14618.0s 321 [Epoch 12 / 15], Training loss is 0.709494
+14660.1s 322 [Epoch 12 / 15], Validation loss is 1.610739, Top-5 accuracy is 0.847083, Top-1 accuracy is 0.564895
+14716.5s 323 [Epoch 13 / 15], Training loss is 0.652621
+14758.4s 324 [Epoch 13 / 15], Validation loss is 1.582768, Top-5 accuracy is 0.855713, Top-1 accuracy is 0.571971
+14814.6s 325 [Epoch 14 / 15], Training loss is 0.600139
+14856.5s 326 [Epoch 14 / 15], Validation loss is 1.577238, Top-5 accuracy is 0.854332, Top-1 accuracy is 0.574215
+14913.5s 327 [Epoch 15 / 15], Training loss is 0.548934
+14955.4s 328 [Epoch 15 / 15], Validation loss is 1.576025, Top-5 accuracy is 0.860028, Top-1 accuracy is 0.575078
+14955.7s 329 ======================================================================
+14955.7s 330 Training with configuration (0.00050, 0.00100)
+15012.2s 331 [Epoch  1 / 15], Training loss is 6.404677
+15054.7s 332 [Epoch  1 / 15], Validation loss is 5.212830, Top-5 accuracy is 0.151363, Top-1 accuracy is 0.045564
+15111.3s 333 [Epoch  2 / 15], Training loss is 4.095971
+15153.1s 334 [Epoch  2 / 15], Validation loss is 3.745098, Top-5 accuracy is 0.417501, Top-1 accuracy is 0.182258
+15209.2s 335 [Epoch  3 / 15], Training loss is 2.953505
+15251.2s 336 [Epoch  3 / 15], Validation loss is 3.038628, Top-5 accuracy is 0.584743, Top-1 accuracy is 0.299448
+15307.8s 337 [Epoch  4 / 15], Training loss is 2.287903
+15349.8s 338 [Epoch  4 / 15], Validation loss is 2.644054, Top-5 accuracy is 0.675181, Top-1 accuracy is 0.377632
+15406.6s 339 [Epoch  5 / 15], Training loss is 1.864896
+15449.1s 340 [Epoch  5 / 15], Validation loss is 2.386999, Top-5 accuracy is 0.727822, Top-1 accuracy is 0.433379
+15506.2s 341 [Epoch  6 / 15], Training loss is 1.552900
+15548.5s 342 [Epoch  6 / 15], Validation loss is 2.189057, Top-5 accuracy is 0.762858, Top-1 accuracy is 0.467035
+15604.7s 343 [Epoch  7 / 15], Training loss is 1.316143
+15646.6s 344 [Epoch  7 / 15], Validation loss is 2.042336, Top-5 accuracy is 0.782361, Top-1 accuracy is 0.500518
+15703.4s 345 [Epoch  8 / 15], Training loss is 1.123140
+15745.4s 346 [Epoch  8 / 15], Validation loss is 1.950120, Top-5 accuracy is 0.800311, Top-1 accuracy is 0.513635
+15802.1s 347 [Epoch  9 / 15], Training loss is 0.981032
+15843.9s 348 [Epoch  9 / 15], Validation loss is 1.892525, Top-5 accuracy is 0.808595, Top-1 accuracy is 0.523818
+15900.4s 349 [Epoch 10 / 15], Training loss is 0.844940
+15942.6s 350 [Epoch 10 / 15], Validation loss is 1.830668, Top-5 accuracy is 0.816707, Top-1 accuracy is 0.540041
+15998.8s 351 [Epoch 11 / 15], Training loss is 0.734969
+16041.2s 352 [Epoch 11 / 15], Validation loss is 1.769912, Top-5 accuracy is 0.824128, Top-1 accuracy is 0.551087
+16097.6s 353 [Epoch 12 / 15], Training loss is 0.640659
+16140.5s 354 [Epoch 12 / 15], Validation loss is 1.745478, Top-5 accuracy is 0.828271, Top-1 accuracy is 0.553331
+16197.8s 355 [Epoch 13 / 15], Training loss is 0.575756
+16240.1s 356 [Epoch 13 / 15], Validation loss is 1.711441, Top-5 accuracy is 0.833966, Top-1 accuracy is 0.562996
+16298.0s 357 [Epoch 14 / 15], Training loss is 0.502139
+16340.6s 358 [Epoch 14 / 15], Validation loss is 1.693087, Top-5 accuracy is 0.835520, Top-1 accuracy is 0.568174
+16397.8s 359 [Epoch 15 / 15], Training loss is 0.449089
+16440.0s 360 [Epoch 15 / 15], Validation loss is 1.663499, Top-5 accuracy is 0.840179, Top-1 accuracy is 0.570590
+16440.3s 361 ======================================================================
+16440.3s 362 Training with configuration (0.00050, 0.00200)
+16497.0s 363 [Epoch  1 / 15], Training loss is 6.149722
+16539.7s 364 [Epoch  1 / 15], Validation loss is 4.939206, Top-5 accuracy is 0.177080, Top-1 accuracy is 0.056093
+16595.8s 365 [Epoch  2 / 15], Training loss is 3.848853
+16637.8s 366 [Epoch  2 / 15], Validation loss is 3.514659, Top-5 accuracy is 0.465827, Top-1 accuracy is 0.211943
+16694.1s 367 [Epoch  3 / 15], Training loss is 2.722459
+16736.4s 368 [Epoch  3 / 15], Validation loss is 2.830017, Top-5 accuracy is 0.631170, Top-1 accuracy is 0.332931
+16792.9s 369 [Epoch  4 / 15], Training loss is 2.079169
+16834.9s 370 [Epoch  4 / 15], Validation loss is 2.455360, Top-5 accuracy is 0.710908, Top-1 accuracy is 0.409044
+16891.7s 371 [Epoch  5 / 15], Training loss is 1.671769
+16934.2s 372 [Epoch  5 / 15], Validation loss is 2.216807, Top-5 accuracy is 0.753193, Top-1 accuracy is 0.464101
+16990.6s 373 [Epoch  6 / 15], Training loss is 1.381012
+17033.3s 374 [Epoch  6 / 15], Validation loss is 2.039090, Top-5 accuracy is 0.784950, Top-1 accuracy is 0.491716
+17090.3s 375 [Epoch  7 / 15], Training loss is 1.159637
+17132.6s 376 [Epoch  7 / 15], Validation loss is 1.910159, Top-5 accuracy is 0.803072, Top-1 accuracy is 0.520711
+17189.2s 377 [Epoch  8 / 15], Training loss is 0.984180
+17231.5s 378 [Epoch  8 / 15], Validation loss is 1.826358, Top-5 accuracy is 0.819814, Top-1 accuracy is 0.531757
+17287.9s 379 [Epoch  9 / 15], Training loss is 0.855347
+17330.5s 380 [Epoch  9 / 15], Validation loss is 1.779468, Top-5 accuracy is 0.822230, Top-1 accuracy is 0.541595
+17387.1s 381 [Epoch 10 / 15], Training loss is 0.728114
+17429.9s 382 [Epoch 10 / 15], Validation loss is 1.723061, Top-5 accuracy is 0.833103, Top-1 accuracy is 0.559372
+17487.9s 383 [Epoch 11 / 15], Training loss is 0.630252
+17530.3s 384 [Epoch 11 / 15], Validation loss is 1.674843, Top-5 accuracy is 0.837418, Top-1 accuracy is 0.563341
+17587.1s 385 [Epoch 12 / 15], Training loss is 0.546439
+17629.6s 386 [Epoch 12 / 15], Validation loss is 1.652231, Top-5 accuracy is 0.842768, Top-1 accuracy is 0.571453
+17685.9s 387 [Epoch 13 / 15], Training loss is 0.487950
+17728.3s 388 [Epoch 13 / 15], Validation loss is 1.619327, Top-5 accuracy is 0.845185, Top-1 accuracy is 0.578875
+17784.9s 389 [Epoch 14 / 15], Training loss is 0.425452
+17826.3s 390 [Epoch 14 / 15], Validation loss is 1.610182, Top-5 accuracy is 0.843286, Top-1 accuracy is 0.579220
+17882.9s 391 [Epoch 15 / 15], Training loss is 0.378485
+17925.7s 392 [Epoch 15 / 15], Validation loss is 1.585766, Top-5 accuracy is 0.846911, Top-1 accuracy is 0.583362
+17926.0s 393 ======================================================================
+17926.0s 394 Training with configuration (0.00050, 0.00500)
+17982.7s 395 [Epoch  1 / 15], Training loss is 5.803393
+18024.6s 396 [Epoch  1 / 15], Validation loss is 4.497134, Top-5 accuracy is 0.257680, Top-1 accuracy is 0.094408
+18080.9s 397 [Epoch  2 / 15], Training loss is 3.331448
+18122.9s 398 [Epoch  2 / 15], Validation loss is 3.003417, Top-5 accuracy is 0.586469, Top-1 accuracy is 0.281671
+18179.2s 399 [Epoch  3 / 15], Training loss is 2.229575
+18221.7s 400 [Epoch  3 / 15], Validation loss is 2.389229, Top-5 accuracy is 0.715050, Top-1 accuracy is 0.413876
+18278.4s 401 [Epoch  4 / 15], Training loss is 1.661190
+18320.6s 402 [Epoch  4 / 15], Validation loss is 2.107680, Top-5 accuracy is 0.771315, Top-1 accuracy is 0.466172
+18377.0s 403 [Epoch  5 / 15], Training loss is 1.310269
+18419.5s 404 [Epoch  5 / 15], Validation loss is 1.920116, Top-5 accuracy is 0.799103, Top-1 accuracy is 0.509493
+18477.9s 405 [Epoch  6 / 15], Training loss is 1.066930
+18522.1s 406 [Epoch  6 / 15], Validation loss is 1.783212, Top-5 accuracy is 0.822057, Top-1 accuracy is 0.535381
+18579.9s 407 [Epoch  7 / 15], Training loss is 0.880672
+18623.2s 408 [Epoch  7 / 15], Validation loss is 1.693970, Top-5 accuracy is 0.836728, Top-1 accuracy is 0.552123
+18680.4s 409 [Epoch  8 / 15], Training loss is 0.736522
+18723.7s 410 [Epoch  8 / 15], Validation loss is 1.635891, Top-5 accuracy is 0.845530, Top-1 accuracy is 0.569210
+18780.9s 411 [Epoch  9 / 15], Training loss is 0.633671
+18823.8s 412 [Epoch  9 / 15], Validation loss is 1.609160, Top-5 accuracy is 0.847083, Top-1 accuracy is 0.570763
+18880.6s 413 [Epoch 10 / 15], Training loss is 0.527181
+18923.8s 414 [Epoch 10 / 15], Validation loss is 1.562189, Top-5 accuracy is 0.856921, Top-1 accuracy is 0.585261
+18981.0s 415 [Epoch 11 / 15], Training loss is 0.452639
+19023.7s 416 [Epoch 11 / 15], Validation loss is 1.529861, Top-5 accuracy is 0.858302, Top-1 accuracy is 0.591819
+19080.7s 417 [Epoch 12 / 15], Training loss is 0.391205
+19123.1s 418 [Epoch 12 / 15], Validation loss is 1.516452, Top-5 accuracy is 0.865551, Top-1 accuracy is 0.599241
+19179.6s 419 [Epoch 13 / 15], Training loss is 0.340968
+19222.2s 420 [Epoch 13 / 15], Validation loss is 1.493825, Top-5 accuracy is 0.865033, Top-1 accuracy is 0.602865
+19278.5s 421 [Epoch 14 / 15], Training loss is 0.297169
+19321.2s 422 [Epoch 14 / 15], Validation loss is 1.488453, Top-5 accuracy is 0.864170, Top-1 accuracy is 0.603555
+19377.8s 423 [Epoch 15 / 15], Training loss is 0.261083
+19421.2s 424 [Epoch 15 / 15], Validation loss is 1.477731, Top-5 accuracy is 0.869348, Top-1 accuracy is 0.608215
+19421.5s 425 ======================================================================
+19421.5s 426 Training with configuration (0.00050, 0.00800)
+19478.7s 427 [Epoch  1 / 15], Training loss is 5.595562
+19521.0s 428 [Epoch  1 / 15], Validation loss is 4.134940, Top-5 accuracy is 0.333966, Top-1 accuracy is 0.133759
+19577.8s 429 [Epoch  2 / 15], Training loss is 2.956807
+19620.3s 430 [Epoch  2 / 15], Validation loss is 2.685984, Top-5 accuracy is 0.651018, Top-1 accuracy is 0.347774
+19677.4s 431 [Epoch  3 / 15], Training loss is 1.928223
+19720.5s 432 [Epoch  3 / 15], Validation loss is 2.147673, Top-5 accuracy is 0.756990, Top-1 accuracy is 0.458233
+19778.0s 433 [Epoch  4 / 15], Training loss is 1.421403
+19820.6s 434 [Epoch  4 / 15], Validation loss is 1.924787, Top-5 accuracy is 0.796859, Top-1 accuracy is 0.497239
+19876.8s 435 [Epoch  5 / 15], Training loss is 1.108541
+19918.8s 436 [Epoch  5 / 15], Validation loss is 1.767775, Top-5 accuracy is 0.822920, Top-1 accuracy is 0.536244
+19975.7s 437 [Epoch  6 / 15], Training loss is 0.891566
+20019.1s 438 [Epoch  6 / 15], Validation loss is 1.664657, Top-5 accuracy is 0.841905, Top-1 accuracy is 0.561098
+20076.2s 439 [Epoch  7 / 15], Training loss is 0.727768
+20118.8s 440 [Epoch  7 / 15], Validation loss is 1.598374, Top-5 accuracy is 0.846565, Top-1 accuracy is 0.571971
+20175.4s 441 [Epoch  8 / 15], Training loss is 0.602143
+20217.6s 442 [Epoch  8 / 15], Validation loss is 1.552148, Top-5 accuracy is 0.854505, Top-1 accuracy is 0.583535
+20274.5s 443 [Epoch  9 / 15], Training loss is 0.512096
+20317.2s 444 [Epoch  9 / 15], Validation loss is 1.530473, Top-5 accuracy is 0.861236, Top-1 accuracy is 0.588540
+20374.0s 445 [Epoch 10 / 15], Training loss is 0.418783
+20417.3s 446 [Epoch 10 / 15], Validation loss is 1.491162, Top-5 accuracy is 0.865723, Top-1 accuracy is 0.603383
+20474.3s 447 [Epoch 11 / 15], Training loss is 0.357526
+20517.3s 448 [Epoch 11 / 15], Validation loss is 1.468633, Top-5 accuracy is 0.866931, Top-1 accuracy is 0.604246
+20574.3s 449 [Epoch 12 / 15], Training loss is 0.310098
+20617.0s 450 [Epoch 12 / 15], Validation loss is 1.456550, Top-5 accuracy is 0.871591, Top-1 accuracy is 0.608733
+20673.6s 451 [Epoch 13 / 15], Training loss is 0.264311
+20715.7s 452 [Epoch 13 / 15], Validation loss is 1.443590, Top-5 accuracy is 0.874008, Top-1 accuracy is 0.613738
+20772.1s 453 [Epoch 14 / 15], Training loss is 0.232013
+20814.2s 454 [Epoch 14 / 15], Validation loss is 1.436426, Top-5 accuracy is 0.874008, Top-1 accuracy is 0.612875
+20870.9s 455 [Epoch 15 / 15], Training loss is 0.201840
+20913.2s 456 [Epoch 15 / 15], Validation loss is 1.433345, Top-5 accuracy is 0.877459, Top-1 accuracy is 0.618053
+20913.5s 457 ======================================================================
+20913.5s 458 Training with configuration (0.00050, 0.01000)
+20970.7s 459 [Epoch  1 / 15], Training loss is 5.481130
+21013.3s 460 [Epoch  1 / 15], Validation loss is 3.924461, Top-5 accuracy is 0.377977, Top-1 accuracy is 0.157577
+21070.6s 461 [Epoch  2 / 15], Training loss is 2.759579
+21113.1s 462 [Epoch  2 / 15], Validation loss is 2.549399, Top-5 accuracy is 0.679323, Top-1 accuracy is 0.372627
+21170.9s 463 [Epoch  3 / 15], Training loss is 1.783293
+21214.9s 464 [Epoch  3 / 15], Validation loss is 2.045697, Top-5 accuracy is 0.774422, Top-1 accuracy is 0.475147
+21272.3s 465 [Epoch  4 / 15], Training loss is 1.310192
+21314.2s 466 [Epoch  4 / 15], Validation loss is 1.847726, Top-5 accuracy is 0.812392, Top-1 accuracy is 0.511909
+21370.5s 467 [Epoch  5 / 15], Training loss is 1.016611
+21413.6s 468 [Epoch  5 / 15], Validation loss is 1.706180, Top-5 accuracy is 0.834311, Top-1 accuracy is 0.545737
+21470.1s 469 [Epoch  6 / 15], Training loss is 0.810399
+21512.6s 470 [Epoch  6 / 15], Validation loss is 1.621288, Top-5 accuracy is 0.847946, Top-1 accuracy is 0.567656
+21569.4s 471 [Epoch  7 / 15], Training loss is 0.657625
+21611.6s 472 [Epoch  7 / 15], Validation loss is 1.565100, Top-5 accuracy is 0.853297, Top-1 accuracy is 0.578357
+21667.8s 473 [Epoch  8 / 15], Training loss is 0.538850
+21709.8s 474 [Epoch  8 / 15], Validation loss is 1.520933, Top-5 accuracy is 0.858302, Top-1 accuracy is 0.590611
+21766.5s 475 [Epoch  9 / 15], Training loss is 0.457141
+21809.1s 476 [Epoch  9 / 15], Validation loss is 1.500239, Top-5 accuracy is 0.865033, Top-1 accuracy is 0.595789
+21866.0s 477 [Epoch 10 / 15], Training loss is 0.370520
+21908.0s 478 [Epoch 10 / 15], Validation loss is 1.464934, Top-5 accuracy is 0.869002, Top-1 accuracy is 0.608043
+21964.5s 479 [Epoch 11 / 15], Training loss is 0.314522
+22006.5s 480 [Epoch 11 / 15], Validation loss is 1.447082, Top-5 accuracy is 0.869348, Top-1 accuracy is 0.607698
+22062.8s 481 [Epoch 12 / 15], Training loss is 0.272316
+22105.6s 482 [Epoch 12 / 15], Validation loss is 1.435346, Top-5 accuracy is 0.875043, Top-1 accuracy is 0.617881
+22161.9s 483 [Epoch 13 / 15], Training loss is 0.230455
+22203.6s 484 [Epoch 13 / 15], Validation loss is 1.424790, Top-5 accuracy is 0.875734, Top-1 accuracy is 0.615809
+22260.4s 485 [Epoch 14 / 15], Training loss is 0.202821
+22303.7s 486 [Epoch 14 / 15], Validation loss is 1.419777, Top-5 accuracy is 0.875734, Top-1 accuracy is 0.618226
+22360.9s 487 [Epoch 15 / 15], Training loss is 0.175310
+22404.5s 488 [Epoch 15 / 15], Validation loss is 1.420294, Top-5 accuracy is 0.879531, Top-1 accuracy is 0.619261
+22405.4s 489 ======================================================================
+22405.4s 490 Training with configuration (0.00050, 0.01000)
+22463.9s 491 [Epoch  1 / 45], Training loss is 5.481130
+22507.7s 492 [Epoch  1 / 45], Validation loss is 3.924461, Top-5 accuracy is 0.377977, Top-1 accuracy is 0.157577
+22564.8s 493 [Epoch  2 / 45], Training loss is 2.759579
+22608.1s 494 [Epoch  2 / 45], Validation loss is 2.549399, Top-5 accuracy is 0.679323, Top-1 accuracy is 0.372627
+22665.4s 495 [Epoch  3 / 45], Training loss is 1.783293
+22708.8s 496 [Epoch  3 / 45], Validation loss is 2.045697, Top-5 accuracy is 0.774422, Top-1 accuracy is 0.475147
+22766.6s 497 [Epoch  4 / 45], Training loss is 1.310192
+22808.9s 498 [Epoch  4 / 45], Validation loss is 1.847726, Top-5 accuracy is 0.812392, Top-1 accuracy is 0.511909
+22866.6s 499 [Epoch  5 / 45], Training loss is 1.016611
+22910.1s 500 [Epoch  5 / 45], Validation loss is 1.706180, Top-5 accuracy is 0.834311, Top-1 accuracy is 0.545737
+22967.2s 501 [Epoch  6 / 45], Training loss is 0.810399
+23011.3s 502 [Epoch  6 / 45], Validation loss is 1.621288, Top-5 accuracy is 0.847946, Top-1 accuracy is 0.567656
+23068.8s 503 [Epoch  7 / 45], Training loss is 0.657625
+23111.4s 504 [Epoch  7 / 45], Validation loss is 1.565100, Top-5 accuracy is 0.853297, Top-1 accuracy is 0.578357
+23169.1s 505 [Epoch  8 / 45], Training loss is 0.538850
+23212.5s 506 [Epoch  8 / 45], Validation loss is 1.520933, Top-5 accuracy is 0.858302, Top-1 accuracy is 0.590611
+23269.7s 507 [Epoch  9 / 45], Training loss is 0.457141
+23312.8s 508 [Epoch  9 / 45], Validation loss is 1.500239, Top-5 accuracy is 0.865033, Top-1 accuracy is 0.595789
+23371.5s 509 [Epoch 10 / 45], Training loss is 0.370520
+23416.2s 510 [Epoch 10 / 45], Validation loss is 1.464934, Top-5 accuracy is 0.869002, Top-1 accuracy is 0.608043
+23475.6s 511 [Epoch 11 / 45], Training loss is 0.314522
+23519.9s 512 [Epoch 11 / 45], Validation loss is 1.447082, Top-5 accuracy is 0.869348, Top-1 accuracy is 0.607698
+23578.3s 513 [Epoch 12 / 45], Training loss is 0.272316
+23621.6s 514 [Epoch 12 / 45], Validation loss is 1.435346, Top-5 accuracy is 0.875043, Top-1 accuracy is 0.617881
+23678.6s 515 [Epoch 13 / 45], Training loss is 0.230455
+23720.9s 516 [Epoch 13 / 45], Validation loss is 1.424790, Top-5 accuracy is 0.875734, Top-1 accuracy is 0.615809
+23778.0s 517 [Epoch 14 / 45], Training loss is 0.202821
+23820.8s 518 [Epoch 14 / 45], Validation loss is 1.419777, Top-5 accuracy is 0.875734, Top-1 accuracy is 0.618226
+23877.7s 519 [Epoch 15 / 45], Training loss is 0.175310
+23920.6s 520 [Epoch 15 / 45], Validation loss is 1.420294, Top-5 accuracy is 0.879531, Top-1 accuracy is 0.619261
+23978.4s 521 [Epoch 16 / 45], Training loss is 0.158211
+24021.9s 522 [Epoch 16 / 45], Validation loss is 1.405492, Top-5 accuracy is 0.879358, Top-1 accuracy is 0.627373
+24079.1s 523 [Epoch 17 / 45], Training loss is 0.140231
+24122.0s 524 [Epoch 17 / 45], Validation loss is 1.406053, Top-5 accuracy is 0.877287, Top-1 accuracy is 0.629617
+24178.9s 525 [Epoch 18 / 45], Training loss is 0.122893
+24221.6s 526 [Epoch 18 / 45], Validation loss is 1.398212, Top-5 accuracy is 0.878495, Top-1 accuracy is 0.631170
+24278.9s 527 [Epoch 19 / 45], Training loss is 0.113204
+24322.6s 528 [Epoch 19 / 45], Validation loss is 1.396061, Top-5 accuracy is 0.880048, Top-1 accuracy is 0.629617
+24380.1s 529 [Epoch 20 / 45], Training loss is 0.100145
+24422.7s 530 [Epoch 20 / 45], Validation loss is 1.379553, Top-5 accuracy is 0.881602, Top-1 accuracy is 0.637038
+24480.5s 531 [Epoch 21 / 45], Training loss is 0.091460
+24524.3s 532 [Epoch 21 / 45], Validation loss is 1.378150, Top-5 accuracy is 0.880911, Top-1 accuracy is 0.633414
+24581.1s 533 [Epoch 22 / 45], Training loss is 0.087275
+24624.1s 534 [Epoch 22 / 45], Validation loss is 1.376355, Top-5 accuracy is 0.881256, Top-1 accuracy is 0.638246
+24681.7s 535 [Epoch 23 / 45], Training loss is 0.077902
+24724.2s 536 [Epoch 23 / 45], Validation loss is 1.368698, Top-5 accuracy is 0.881947, Top-1 accuracy is 0.639455
+24781.4s 537 [Epoch 24 / 45], Training loss is 0.078102
+24824.0s 538 [Epoch 24 / 45], Validation loss is 1.376946, Top-5 accuracy is 0.883328, Top-1 accuracy is 0.639282
+24881.0s 539 [Epoch 25 / 45], Training loss is 0.069990
+24924.8s 540 [Epoch 25 / 45], Validation loss is 1.368243, Top-5 accuracy is 0.884881, Top-1 accuracy is 0.637729
+24981.7s 541 [Epoch 26 / 45], Training loss is 0.063725
+25024.7s 542 [Epoch 26 / 45], Validation loss is 1.366852, Top-5 accuracy is 0.884536, Top-1 accuracy is 0.641008
+25082.4s 543 [Epoch 27 / 45], Training loss is 0.062976
+25125.6s 544 [Epoch 27 / 45], Validation loss is 1.370031, Top-5 accuracy is 0.885226, Top-1 accuracy is 0.641526
+25182.6s 545 [Epoch 28 / 45], Training loss is 0.056110
+25225.7s 546 [Epoch 28 / 45], Validation loss is 1.370596, Top-5 accuracy is 0.882119, Top-1 accuracy is 0.639282
+25282.7s 547 [Epoch 29 / 45], Training loss is 0.053955
+25325.7s 548 [Epoch 29 / 45], Validation loss is 1.364482, Top-5 accuracy is 0.885399, Top-1 accuracy is 0.639627
+25382.5s 549 [Epoch 30 / 45], Training loss is 0.053073
+25425.0s 550 [Epoch 30 / 45], Validation loss is 1.364486, Top-5 accuracy is 0.883328, Top-1 accuracy is 0.642734
+25481.9s 551 [Epoch 31 / 45], Training loss is 0.047675
+25524.5s 552 [Epoch 31 / 45], Validation loss is 1.359807, Top-5 accuracy is 0.886262, Top-1 accuracy is 0.644287
+25582.0s 553 [Epoch 32 / 45], Training loss is 0.044003
+25624.6s 554 [Epoch 32 / 45], Validation loss is 1.359194, Top-5 accuracy is 0.886089, Top-1 accuracy is 0.647912
+25682.0s 555 [Epoch 33 / 45], Training loss is 0.045285
+25724.8s 556 [Epoch 33 / 45], Validation loss is 1.354726, Top-5 accuracy is 0.887125, Top-1 accuracy is 0.646703
+25781.9s 557 [Epoch 34 / 45], Training loss is 0.045327
+25825.0s 558 [Epoch 34 / 45], Validation loss is 1.356628, Top-5 accuracy is 0.884881, Top-1 accuracy is 0.645323
+25882.3s 559 [Epoch 35 / 45], Training loss is 0.043648
+25924.6s 560 [Epoch 35 / 45], Validation loss is 1.364292, Top-5 accuracy is 0.882810, Top-1 accuracy is 0.643942
+25981.8s 561 [Epoch 36 / 45], Training loss is 0.043862
+26023.8s 562 [Epoch 36 / 45], Validation loss is 1.360154, Top-5 accuracy is 0.884536, Top-1 accuracy is 0.645668
+26080.2s 563 [Epoch 37 / 45], Training loss is 0.043939
+26122.4s 564 [Epoch 37 / 45], Validation loss is 1.354866, Top-5 accuracy is 0.885054, Top-1 accuracy is 0.643942
+26179.9s 565 [Epoch 38 / 45], Training loss is 0.042696
+26222.7s 566 [Epoch 38 / 45], Validation loss is 1.359750, Top-5 accuracy is 0.886952, Top-1 accuracy is 0.643942
+26279.4s 567 [Epoch 39 / 45], Training loss is 0.043987
+26322.8s 568 [Epoch 39 / 45], Validation loss is 1.352543, Top-5 accuracy is 0.886262, Top-1 accuracy is 0.646358
+26379.5s 569 [Epoch 40 / 45], Training loss is 0.041850
+26422.4s 570 [Epoch 40 / 45], Validation loss is 1.363815, Top-5 accuracy is 0.885399, Top-1 accuracy is 0.645323
+26479.3s 571 [Epoch 41 / 45], Training loss is 0.042276
+26521.6s 572 [Epoch 41 / 45], Validation loss is 1.354444, Top-5 accuracy is 0.887125, Top-1 accuracy is 0.646013
+26577.9s 573 [Epoch 42 / 45], Training loss is 0.042843
+26621.1s 574 [Epoch 42 / 45], Validation loss is 1.360579, Top-5 accuracy is 0.882810, Top-1 accuracy is 0.646013
+26678.4s 575 [Epoch 43 / 45], Training loss is 0.042355
+26721.2s 576 [Epoch 43 / 45], Validation loss is 1.356300, Top-5 accuracy is 0.886089, Top-1 accuracy is 0.643942
+26778.0s 577 [Epoch 44 / 45], Training loss is 0.042902
+26821.0s 578 [Epoch 44 / 45], Validation loss is 1.357695, Top-5 accuracy is 0.882810, Top-1 accuracy is 0.645323
+26877.5s 579 [Epoch 45 / 45], Training loss is 0.041266
+26920.0s 580 [Epoch 45 / 45], Validation loss is 1.352820, Top-5 accuracy is 0.886607, Top-1 accuracy is 0.646358
+26920.8s 581 ======================================================================
+26920.8s 582 Training with configuration (0.00050, 0.01000)
+26977.9s 583 [Epoch  1 / 45], Training loss is 5.624804
+27020.0s 584 [Epoch  1 / 45], Validation loss is 5.383454, Top-5 accuracy is 0.045047, Top-1 accuracy is 0.009665
+27076.8s 585 [Epoch  2 / 45], Training loss is 5.279906
+27118.8s 586 [Epoch  2 / 45], Validation loss is 5.273602, Top-5 accuracy is 0.059372, Top-1 accuracy is 0.011046
+27175.8s 587 [Epoch  3 / 45], Training loss is 5.127752
+27218.2s 588 [Epoch  3 / 45], Validation loss is 5.121473, Top-5 accuracy is 0.085088, Top-1 accuracy is 0.021056
+27275.8s 589 [Epoch  4 / 45], Training loss is 4.961903
+27319.4s 590 [Epoch  4 / 45], Validation loss is 5.093522, Top-5 accuracy is 0.111495, Top-1 accuracy is 0.030031
+27377.7s 591 [Epoch  5 / 45], Training loss is 4.834755
+27419.8s 592 [Epoch  5 / 45], Validation loss is 4.984315, Top-5 accuracy is 0.114946, Top-1 accuracy is 0.032102
+27476.8s 593 [Epoch  6 / 45], Training loss is 4.685044
+27519.5s 594 [Epoch  6 / 45], Validation loss is 4.907023, Top-5 accuracy is 0.133586, Top-1 accuracy is 0.034691
+27576.3s 595 [Epoch  7 / 45], Training loss is 4.592460
+27618.5s 596 [Epoch  7 / 45], Validation loss is 4.875474, Top-5 accuracy is 0.134277, Top-1 accuracy is 0.038661
+27675.7s 597 [Epoch  8 / 45], Training loss is 4.479224
+27718.1s 598 [Epoch  8 / 45], Validation loss is 4.863376, Top-5 accuracy is 0.145150, Top-1 accuracy is 0.041595
+27776.4s 599 [Epoch  9 / 45], Training loss is 4.362804
+27820.4s 600 [Epoch  9 / 45], Validation loss is 4.754123, Top-5 accuracy is 0.166379, Top-1 accuracy is 0.049707
+27877.2s 601 [Epoch 10 / 45], Training loss is 4.260786
+27919.5s 602 [Epoch 10 / 45], Validation loss is 4.748077, Top-5 accuracy is 0.179669, Top-1 accuracy is 0.057301
+27976.0s 603 [Epoch 11 / 45], Training loss is 4.170709
+28018.4s 604 [Epoch 11 / 45], Validation loss is 4.675679, Top-5 accuracy is 0.189679, Top-1 accuracy is 0.056610
+28074.7s 605 [Epoch 12 / 45], Training loss is 4.053266
+28117.0s 606 [Epoch 12 / 45], Validation loss is 4.683460, Top-5 accuracy is 0.207283, Top-1 accuracy is 0.062651
+28173.5s 607 [Epoch 13 / 45], Training loss is 3.971101
+28215.5s 608 [Epoch 13 / 45], Validation loss is 4.566968, Top-5 accuracy is 0.217294, Top-1 accuracy is 0.070245
+28272.1s 609 [Epoch 14 / 45], Training loss is 3.876974
+28314.7s 610 [Epoch 14 / 45], Validation loss is 4.594339, Top-5 accuracy is 0.209182, Top-1 accuracy is 0.061443
+28373.4s 611 [Epoch 15 / 45], Training loss is 3.794008
+28417.4s 612 [Epoch 15 / 45], Validation loss is 4.531930, Top-5 accuracy is 0.229030, Top-1 accuracy is 0.067138
+28474.1s 613 [Epoch 16 / 45], Training loss is 3.705685
+28515.8s 614 [Epoch 16 / 45], Validation loss is 4.509917, Top-5 accuracy is 0.236797, Top-1 accuracy is 0.066966
+28572.5s 615 [Epoch 17 / 45], Training loss is 3.610507
+28614.2s 616 [Epoch 17 / 45], Validation loss is 4.520299, Top-5 accuracy is 0.237487, Top-1 accuracy is 0.074905
+28671.0s 617 [Epoch 18 / 45], Training loss is 3.514683
+28713.2s 618 [Epoch 18 / 45], Validation loss is 4.518290, Top-5 accuracy is 0.242665, Top-1 accuracy is 0.081464
+28769.3s 619 [Epoch 19 / 45], Training loss is 3.440564
+28810.5s 620 [Epoch 19 / 45], Validation loss is 4.434694, Top-5 accuracy is 0.257680, Top-1 accuracy is 0.083880
+28866.3s 621 [Epoch 20 / 45], Training loss is 3.353920
+28909.0s 622 [Epoch 20 / 45], Validation loss is 4.393300, Top-5 accuracy is 0.260614, Top-1 accuracy is 0.091301
+28965.2s 623 [Epoch 21 / 45], Training loss is 3.266164
+29006.7s 624 [Epoch 21 / 45], Validation loss is 4.372448, Top-5 accuracy is 0.277183, Top-1 accuracy is 0.097515
+29062.0s 625 [Epoch 22 / 45], Training loss is 3.179033
+29103.2s 626 [Epoch 22 / 45], Validation loss is 4.375607, Top-5 accuracy is 0.274249, Top-1 accuracy is 0.095616
+29159.2s 627 [Epoch 23 / 45], Training loss is 3.101108
+29200.9s 628 [Epoch 23 / 45], Validation loss is 4.414753, Top-5 accuracy is 0.274249, Top-1 accuracy is 0.092682
+29256.8s 629 [Epoch 24 / 45], Training loss is 3.023283
+29298.6s 630 [Epoch 24 / 45], Validation loss is 4.322161, Top-5 accuracy is 0.288574, Top-1 accuracy is 0.101829
+29354.7s 631 [Epoch 25 / 45], Training loss is 2.948816
+29396.8s 632 [Epoch 25 / 45], Validation loss is 4.332945, Top-5 accuracy is 0.300311, Top-1 accuracy is 0.108043
+29453.3s 633 [Epoch 26 / 45], Training loss is 2.851015
+29495.2s 634 [Epoch 26 / 45], Validation loss is 4.338222, Top-5 accuracy is 0.297549, Top-1 accuracy is 0.106317
+29551.3s 635 [Epoch 27 / 45], Training loss is 2.766331
+29593.0s 636 [Epoch 27 / 45], Validation loss is 4.395675, Top-5 accuracy is 0.299103, Top-1 accuracy is 0.105627
+29649.0s 637 [Epoch 28 / 45], Training loss is 2.707349
+29691.1s 638 [Epoch 28 / 45], Validation loss is 4.294139, Top-5 accuracy is 0.308250, Top-1 accuracy is 0.113738
+29746.8s 639 [Epoch 29 / 45], Training loss is 2.613060
+29788.8s 640 [Epoch 29 / 45], Validation loss is 4.296993, Top-5 accuracy is 0.321712, Top-1 accuracy is 0.119261
+29845.0s 641 [Epoch 30 / 45], Training loss is 2.556002
+29886.1s 642 [Epoch 30 / 45], Validation loss is 4.274011, Top-5 accuracy is 0.315154, Top-1 accuracy is 0.123231
+29942.9s 643 [Epoch 31 / 45], Training loss is 2.445847
+29985.1s 644 [Epoch 31 / 45], Validation loss is 4.367623, Top-5 accuracy is 0.323093, Top-1 accuracy is 0.122195
+30042.3s 645 [Epoch 32 / 45], Training loss is 2.193718
+30084.6s 646 [Epoch 32 / 45], Validation loss is 4.097963, Top-5 accuracy is 0.351053, Top-1 accuracy is 0.138937
+30140.7s 647 [Epoch 33 / 45], Training loss is 2.120699
+30182.6s 648 [Epoch 33 / 45], Validation loss is 4.094420, Top-5 accuracy is 0.353297, Top-1 accuracy is 0.142561
+30239.1s 649 [Epoch 34 / 45], Training loss is 2.134916
+30280.9s 650 [Epoch 34 / 45], Validation loss is 4.097012, Top-5 accuracy is 0.355022, Top-1 accuracy is 0.142561
+30337.3s 651 [Epoch 35 / 45], Training loss is 2.111342
+30379.0s 652 [Epoch 35 / 45], Validation loss is 4.103550, Top-5 accuracy is 0.350880, Top-1 accuracy is 0.139800
+30434.6s 653 [Epoch 36 / 45], Training loss is 2.084024
+30475.5s 654 [Epoch 36 / 45], Validation loss is 4.092892, Top-5 accuracy is 0.358474, Top-1 accuracy is 0.141008
+30531.4s 655 [Epoch 37 / 45], Training loss is 2.092197
+30573.1s 656 [Epoch 37 / 45], Validation loss is 4.099917, Top-5 accuracy is 0.356403, Top-1 accuracy is 0.139109
+30629.0s 657 [Epoch 38 / 45], Training loss is 2.063371
+30670.4s 658 [Epoch 38 / 45], Validation loss is 4.086044, Top-5 accuracy is 0.352606, Top-1 accuracy is 0.141353
+30727.2s 659 [Epoch 39 / 45], Training loss is 2.055524
+30768.6s 660 [Epoch 39 / 45], Validation loss is 4.107226, Top-5 accuracy is 0.355885, Top-1 accuracy is 0.141353
+30825.2s 661 [Epoch 40 / 45], Training loss is 2.067021
+30867.2s 662 [Epoch 40 / 45], Validation loss is 4.094464, Top-5 accuracy is 0.356576, Top-1 accuracy is 0.138419
+30923.6s 663 [Epoch 41 / 45], Training loss is 2.033463
+30964.8s 664 [Epoch 41 / 45], Validation loss is 4.085805, Top-5 accuracy is 0.355713, Top-1 accuracy is 0.142043
+31020.7s 665 [Epoch 42 / 45], Training loss is 2.048870
+31062.3s 666 [Epoch 42 / 45], Validation loss is 4.098410, Top-5 accuracy is 0.357439, Top-1 accuracy is 0.141181
+31118.1s 667 [Epoch 43 / 45], Training loss is 2.028038
+31160.4s 668 [Epoch 43 / 45], Validation loss is 4.095101, Top-5 accuracy is 0.356231, Top-1 accuracy is 0.141698
+31217.0s 669 [Epoch 44 / 45], Training loss is 2.022618
+31259.2s 670 [Epoch 44 / 45], Validation loss is 4.097768, Top-5 accuracy is 0.357784, Top-1 accuracy is 0.143424
+31315.8s 671 [Epoch 45 / 45], Training loss is 1.991891
+31357.4s 672 [Epoch 45 / 45], Validation loss is 4.098324, Top-5 accuracy is 0.357611, Top-1 accuracy is 0.141181
+31363.4s 673 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+31363.4s 674 warn(
+31363.5s 675 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+31363.5s 676 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+31364.1s 677 [NbConvertApp] Writing 84172 bytes to __notebook__.ipynb
+31365.6s 678 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+31365.6s 679 warn(
+31365.7s 680 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+31365.7s 681 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+31366.7s 682 [NbConvertApp] Writing 389746 bytes to __results__.html
