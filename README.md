@@ -11,6 +11,7 @@ CUB-200-2011
     ├──best_accuracy_lr.txt         # 不同学习率得到的accuracy
     ├──best_accuracy_ep.txt         # 不同训练epoch得到的accuracy
     └──resent-sub.log               # 使用notebook文件训练得到的log日志
+├──image                            # 训练loss, accuracy的截图
 ├──data.py                          # 导入、预处理数据集
 ├──model.py                         # 定义在CUB数据集上的ResNet-18
 ├──solver.py                        # 求解器，封装训练测试函数
