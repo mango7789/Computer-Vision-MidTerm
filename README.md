@@ -24,7 +24,7 @@ CUB-200-2011
 
 ### 模型权重
 
-- https://drive.google.com/file/d/1fDSB7W71iAiA7-mWxaPpXXonUy0JKqrw/view?usp=sharing
+- [ResNet-18](https://drive.google.com/file/d/1fDSB7W71iAiA7-mWxaPpXXonUy0JKqrw/view?usp=sharing)
 
 ### 使用说明
 
