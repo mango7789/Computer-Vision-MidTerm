@@ -11,7 +11,7 @@ CUB-200-2011
     ├──best_accuracy_lr.txt         # 不同学习率得到的accuracy
     ├──best_accuracy_ep.txt         # 不同训练epoch得到的accuracy
     └──resent-sub.log               # 使用notebook文件训练得到的log日志
-├──image                            # 训练loss, accuracy的截图
+├──image                            # tensorboard可视化训练loss, accuracy的截图
 ├──data.py                          # 导入、预处理数据集
 ├──model.py                         # 定义在CUB数据集上的ResNet-18
 ├──solver.py                        # 求解器，封装训练测试函数
@@ -74,30 +74,30 @@ CUB-200-2011
 ```txt
 Pascal VOC
 ├──configs
-    ├──_base_
+    ├──_base_                   # 和mmdetection提供的`/_base_`类似，仅保留相关文件
     └──pascal_voc               # 存放faster rcnn和yolov3的配置文件                
-├──tools         
+├──tools                    # 和mmdetection提供的`/tools`类似，仅保留相关文件
     ├──train.py                 # 训练模型
     └──test.py                                
-├──demo 
+├──demo                     # 存放用来进行推断的测试图片
     ├──in                       # 在原数据集中的测试图片，名称代表编号，来自VOC2007测试集
     └──out                      # 不在原数据集中的图片                     
-├──img                    # inference的结果截图
+├──img                      # inference结果图片，训练损失、准确率截图
     ├──in                       # 在数据集内图片的推断结果 
-        ├──first                      # faster_rcnn第一阶段proposal bbox
-        └──second                     # faster_rcnn第二阶段bbox
+        ├──first/vis                  # faster_rcnn第一阶段proposal bbox
+        └──second/vis                 # faster_rcnn第二阶段bbox
         └──first_second_stage.png     # 两个阶段的对比图
-    ├──out                      # 不在数据集内图片的推断结果
+    ├──out                      # 数据集外图片的推断结果
         ├──faster_rcnn/vis            # faster_rcnn对数据集外图片推断的结果
         ├──yolov3/vis                 # yolov3对数据集外图片推断的结果
         └──faster_rcnn_yolov3.png     # 两个模型的对比图
     └──tensorboard              # tensorboard截图
-├──work_dirs    
+├──work_dirs                # 训练产生的输出文件，包含日志，模型配置及权重
     ├──faster-rcnn              # faster-rcnn训练产生的文件
     └──yolov3                   # yolov3训练产生的文件
-├──download.py                  # 下载数据集                         
-├──voc-mmdetection.ipynb        # notebook文件         
-└──requirements.txt             # 依赖库      
+├──download.py              # 下载数据集                         
+├──voc-mmdetection.ipynb    # notebook文件         
+└──requirements.txt         # 依赖库      
 ```
 
 ### 模型权重
