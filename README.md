@@ -110,7 +110,7 @@ Pascal VOC
 - 安装依赖库
     ```bash
     # suppose you are currently in the root directory
-    cd Pascal VOC
+    cd 'Pascal VOC'
     pip install -r requirements.txt 
     ```
 - 下载模型权重文件
