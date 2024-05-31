@@ -122,11 +122,11 @@ def train_resnet_with_cub(
                 param_group['lr'] *= gamma
     
     # init the tensorboard
-    tensorboard_name = "/kaggle/working/Fine_Tuning_With_Pretrain"
+    tensorboard_name = "Fine_Tuning_With_Pretrain"
     if len(num_epochs) != 1:
-        tensorboard_name = "/kaggle/working/Full_Train"
+        tensorboard_name = "Full_Train"
     if not pretrain:
-        tensorboard_name = '/kaggle/working/Random_Init'
+        tensorboard_name = 'Random_Init'
     writer = SummaryWriter(tensorboard_name, comment="-{}-{}".format(fine_tuning_lr, output_lr))
         
     # best accuracy
